@@ -17,7 +17,7 @@ class Classroom
   end
 
   def remove_student(student)
-    @students.pop(student)
+    @students.delete(student)
   end
 
   def student_count
