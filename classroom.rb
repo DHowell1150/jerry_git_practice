@@ -13,7 +13,14 @@ class Classroom
   end
 
   def add_student(student)
-    student.push(student)
+    @students.push(student)
   end
 
+  def remove_student(student)
+    @students.pop(student)
+  end
+
+  def student_count
+    @students.size
+  end
 end
